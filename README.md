@@ -1,0 +1,1 @@
+Can a deep neural network learn to be a GARCH model? Zhao et al. (2024) show they are mathematically equivalent. So I extended their framework to Bitcoin volatility forecasting, adding on-chain blockchain data as exogenous features. The hybrid GARCH-LSTM beats the standalone GJR-GARCH by 28% on out-of-sample MAE while keeping full econometric interpretability.
